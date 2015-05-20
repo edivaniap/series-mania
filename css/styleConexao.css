@@ -1,0 +1,83 @@
+body{
+	background-image: url(../imagens/blackbg.jpg);
+	background-repeat: repeat;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+#titulo{
+	border-top: 3px solid #FFFFFF;
+	border-bottom: 3px solid #FFFFFF;
+	border-radius:10px;
+	margin-top:10px;
+}
+
+#titulo p{
+	font-family:High Tower Text;
+	font-size:26pt;
+	font-weight:bolder;
+	color:#FFFFFF;
+	text-shadow: 0.1em 0.1em #000;
+	text-align:center;
+}
+
+#cabecalho{
+	width: auto;
+	position: relative;
+	display: block;
+	height: 180px;
+	background-image: url(../imagens/capa.png);
+	background-repeat: repeat;
+	background-position: center;
+	border: 2px inset #ff;
+	border-radius:0px;
+	box-shadow: #000040 2px 2px 1px;
+}
+
+#cabecalho p{
+	text-align:right;
+}
+#cabecalho img{
+	border-radius:6px;
+	border: 2px solid #fff;
+	margin-top:4px;
+}
+
+#conteudo{
+	background-color:#FFFFFF;
+	border: 2px inset #fff;	
+	box-shadow: #000040 2px 2px 1px;
+	margin-right:80px;
+	margin-left:80px;
+	margin-top:8px;
+	border-radius:5px;
+}
+
+#conteudo img{
+	border-radius:6px;
+	border: 2px solid #0066FF;
+	margin-top:4px;
+}
+
+#conteudo input, label, select{
+	font-family:"Teuton Normal";
+	font-size:18px;
+}
+
+#conteudo legend{
+	font-family:"Teuton Normal";
+	font-size:24px;
+	color:#0033FF;
+}
+
+#conteudo fieldset{
+	width:230px;
+	margin:auto;
+}
+
+#conteudo h1{
+	font-family:"Teuton Normal";
+	font-size:36px;
+	text-align:center;
+}
